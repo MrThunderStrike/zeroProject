@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="sc" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    <!-- TEST  FSD-->
     <div class="container">
+
+        <!-- Type section start----------------->
         <div class="typeBlock">
             <label>Type:</label>
             <label for="laptopRadio">
@@ -22,32 +22,135 @@
                 PC
             </label>
         </div>
+        <!-- Type section end------------------->
 
+        <!-- Name section start----------------->
         <div class="nameBlock">
             <label for="nameInput">Tag name: </label>
             <input id="nameInput" type="text">
         </div>
+        <!-- Name section end------------------->
 
+        <!-- CPU section start------------------->
         <div class="cpuBlock">
             <label for="cpuInput">CPU: </label>
         </div>
+        <!-- CPU section end------------------->
 
+        <!-- RAM section start------------------->
         <div class="ramBlock">
-            <label for="ramInput">RAM: </label>
-        </div>
+            <label for="ramSelect">RAM: </label>
+            <select id="ramSelect">
+                <option>1 GB</option>
+                <option>2 GB</option>
+                <option>4 GB</option>
+                <option>8 GB</option>
+                <option>16 GB</option>
+                <option>32 GB</option>
+            </select>
 
+            <span> x (</span>
+            <label for="quantitySelect">Quantity: </label>
+            <select id="quantitySelect">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+
+            <span> x </span>
+            <label for="sizeRamSelect">Size: </label>
+            <select id="sizeRamSelect">
+                <option>1 GB</option>
+                <option>2 GB</option>
+                <option>4 GB</option>
+                <option>8 GB</option>
+                <option>16 GB</option>
+                <option>32 GB</option>
+            </select>
+
+            <label for="DDR2">
+                <input id="DDR2" type="radio" name="type">
+                DDR2
+            </label>
+
+            <label for="DDR3">
+                <input id="DDR3" type="radio" name="type">
+                DDR3
+            </label>
+
+            <label for="DDR4">
+                <input id="DDR4" type="radio" name="type">
+                DDR4
+            </label>
+            <span> ) </span>
+        </div>
+        <!-- RAM section end------------------->
+
+        <!-- GPU section start------------------->
         <div class="graphBlock">
             <label for="graphInput">GPU: </label>
         </div>
+        <!-- GPU section end------------------->
 
+        <!-- Diagonal section start------------------->
         <div class="diagonalBlock">
             <label for="diagonalInput">Diagonal: </label>
-        </div>
+            <input id="diagonalInput" type="text">
 
+            <span>[ </span>
+            <input id="diagonalWidth" type="text">
+            <span>x</span>
+            <input id="diagonalHeight" type="text">
+            <span>]</span>
+
+            <label for="ipsRadio">
+                <input id="ipsRadio" type="radio" name="type">
+                IPS
+            </label>
+            <label for="touchscreenRadio">
+                <input id="touchscreenRadio" type="radio" name="type">
+                Touchscreen
+            </label>
+        </div>
+        <!-- Diagonal section end------------------->
+
+        <!-- Storage section start------------------->
         <div class="storageBlock">
-            <label for="storageInput">Storage: </label>
-        </div>
+            <label >Storage: </label>
+            <label for="ssdRadio">
+                <input id="ssdRadio" type="radio" name="type">
+                SSD
+            </label>
+            <label for="hddRadio">
+                <input id="hddRadio" type="radio" name="type">
+                HDD
+            </label>
+            <label shddRadio">
+                <input id="shddRadio" type="radio" name="type">
+                SHDD
+            </label>
 
+            <label for="sizeStorageSelect">Size: </label>
+            <select id="sizeStorageSelect">
+                <option>32 gb</option>
+                <option>64 gb</option>
+                <option>128 gb</option>
+                <option>256 gb</option>
+                <option>512 gb</option>
+                <option>1 tb</option>
+                <option>2 tb</option>
+            </select>
+
+            <label newStorageRadio">
+                <input id="newStorageRadio" type="radio" name="type">
+                NEW
+            </label>
+            orrrrrrrr?
+        </div>
+        <!-- Storage section end------------------->
+
+        <!-- Warranty section start------------------->
         <div class="warrantyBlock">
             <label for="warrantySelect">Warranty: </label>
             <select id="warrantySelect">
@@ -65,7 +168,9 @@
                 <option>12 month</option>
             </select>
         </div>
+        <!-- Warranty section end------------------->
 
+        <!-- Price section start------------------->
         <div class="priceBlock">
             <label for="priceInput">Price</label>
             <input id="priceInput" type="text">
@@ -78,6 +183,7 @@
             <label for="wholesaleInput">Wholesale</label>
             <input id="wholesaleInput" type="text">
         </div>
+        <!-- Price section end------------------->
     </div>
 
     <script src="js.js"></script>

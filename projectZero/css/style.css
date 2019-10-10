@@ -9,7 +9,7 @@
 }
 
 div > div {
-    margin: 50px 100px;
+    margin: 30px 100px;
 }
 
 /*-----------------------Main structure------------------------*/
@@ -22,12 +22,68 @@ div > div {
 
 }
 
+label {
+    margin-right: 20px;
+}
+
+/*Type section start*/
+
+/*Type section end*/
+
+/*Name section start*/
 #nameInput {
     height: 30px;
     width: 200px;
 }
+/*Name section end*/
 
-label {
-    margin-right: 50px;
+/*CPU section start*/
+
+/*CPU section end*/
+
+/*RAM section start*/
+
+/*RAM section end*/
+
+/*GPU section start*/
+
+/*GPU section end*/
+
+/*Diagonal section start*/
+#diagonalInput {
+    height: 30px;
+    width: 50px;
 }
+
+#diagonalWidth {
+    height: 30px;
+    width: 50px;
+}
+
+#diagonalHeight {
+    height: 30px;
+    width: 50px;
+}
+/*Diagonal section end*/
+
+/*Storage section start*/
+
+/*Storage section end*/
+
+/*Warranty section start*/
+
+/*Warranty section end*/
+
+/*Price section start*/
+#priceInput {
+    height: 30px;
+    width: 100px;
+}
+
+#wholesaleInput {
+    height: 30px;
+    width: 100px;
+}
+/*Price section end*/
+
 
